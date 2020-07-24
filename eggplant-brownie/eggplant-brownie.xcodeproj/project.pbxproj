@@ -24,6 +24,7 @@
 		E6C580CD24CA8837003B3718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6C580D024CA8837003B3718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6C580D224CA8837003B3718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C580DA24CA9656003B3718 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 				E6C580C824CA8834003B3718 /* ViewController.swift */,
 				E6C580CA24CA8834003B3718 /* Main.storyboard */,
 				E6C580CD24CA8837003B3718 /* Assets.xcassets */,
+				E6C580DA24CA9656003B3718 /* MyPlayground.playground */,
 				E6C580CF24CA8837003B3718 /* LaunchScreen.storyboard */,
 				E6C580D224CA8837003B3718 /* Info.plist */,
 			);
