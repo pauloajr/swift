@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func adicionar(_ sender: Any) {
-        print("adicionar --")
+        //variavel implicita que string
+        //let = constante
+        let nome = "churros"
+        //variavel explicita que é string
+        var felicidade: String = "5"
+        print("Comi \(nome) e estava muito bom : \(felicidade)")
     }
     
 }
