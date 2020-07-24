@@ -9,14 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // ! no final é um force run
+    @IBOutlet var nomeTextField: UITextField!
+    @IBOutlet var felicidadeTextField: UITextField!
 
 
     @IBAction func adicionar(_ sender: Any) {
-        //variavel implicita que string
-        //let = constante
-        let nome = "churros"
-        //variavel explicita que é string
-        var felicidade: String = "5"
+        let nome = nomeTextField.text
+        let felicidade: String = felicidadeTextField.text
         print("Comi \(nome) e estava muito bom : \(felicidade)")
     }
     
