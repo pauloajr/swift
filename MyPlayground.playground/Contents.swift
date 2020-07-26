@@ -7,20 +7,40 @@ let peso = 52.8
 /*
  TIPOS
  
- Int, Double
+ Int, Double, Bool
  
  
  
  */
 
-var endereco: String = "av vicente de carvalho"
+let vegetal = false
+
+func alimentoConsumido() {
+    print("o alimento consumido foi \(nome)")
+}
 
 /*
-Podemos realizar a declaracao explicita com : String =
  
-var <nome> : <tipo> = <valor>
+ Chamaremos um método apenas passando o valor das variáveis para entendermos melhor. Indicaremos isso colocando um _ e espaço antes dos parâmetros da função alimentoConsumido().
  
-LET CONSTANTE
+ Colocando o _ ele já pega as variaveis globais
  
-*/
-print(nome)
+ */
+
+let namorada = "Julia"
+let caloria = 50.0
+
+func alimentoConsumidoParametro(anome: String, apeso: Double){
+    print("o alimento consumido foi: \(anome), com calorias: \(apeso)")
+}
+
+func alimentoConsumidoParametroStr(_ nome: String, _ peso: Double){
+    // esses parametros serao ocultados
+    print("o alimento consumido foi: \(nome), com calorias: \(peso)")
+}
+
+
+
+alimentoConsumidoParametro(anome: "namorada", apeso: caloria)
+alimentoConsumidoParametroStr(namorada, caloria)
+
