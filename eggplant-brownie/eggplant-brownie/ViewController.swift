@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func adicionar(_ sender: Any) {
         let nome = nomeTextField.text
-        let felicidade: String = felicidadeTextField.text
+        let felicidade = felicidadeTextField.text
         print("Comi \(nome) e estava muito bom : \(felicidade)")
     }
     
