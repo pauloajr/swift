@@ -1,6 +1,17 @@
 import UIKit
 
-var nome = "Paulo Alex"
+let nome = "Paulo Alex"
+let idade = 24
+let peso = 52.8
+
+/*
+ TIPOS
+ 
+ Int, Double
+ 
+ 
+ 
+ */
 
 var endereco: String = "av vicente de carvalho"
 
